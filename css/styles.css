@@ -138,6 +138,36 @@ main {
     margin-left: 20px;
 }
 
+.snake {
+    background-image: url(/imgs/snakeplant.png);
+    background-size: cover;
+}
+
+.calathea {
+    background-image: url(/imgs/calathea.png);
+    background-size: cover;
+}
+
+.banana {
+    background-image: url(/imgs/banana.png);
+    background-size: cover;
+}
+
+.monstera {
+    background-image: url(/imgs/monstera.png);
+    background-size: cover;
+}
+
+.dumbcane {
+    background-image: url(/imgs/dumbcane.png);
+    background-size: cover;
+}
+
+.paradise {
+    background-image: url(/imgs/birdofparadise.png);
+    background-size: cover;
+}
+
 /* form styling */
 
 .mailing-list h5 {
