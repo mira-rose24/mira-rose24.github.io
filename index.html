@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A Marvelous Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/responsive-nav.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/responsive-nav.js"></script>
+    </head>
+
+    <body>
+      <header>
+        <div class="logo"></div>
+        <div class="navigation">
+        <button id="toggle" class="closed"></button> 
+        <nav class="nav-collapse">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        </header>
+
+      <main >
+        <div class="search">
+          <h1>EXPLORE</h1>
+          <input type="text" placeholder="   Search...">
+        </div>
+        <div class="info-box"></div>
+        <div class="info-box"></div>
+        <div class="info-box"></div>
+        <div class="info-box"></div>
+        <div class="info-box"></div>
+        <div class="info-box"></div>
+      </main>
+
+      <footer>
+        <p>&copy HousePlant Inc.</p>
+      </footer>
+
+      <script>
+        var navigation = responsiveNav(".nav-collapse", {
+          customToggle: "#toggle"
+        });
+      </script>
+    </body>
+</html>
