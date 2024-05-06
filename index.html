@@ -8,84 +8,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/responsive-nav.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/responsive-nav.js"></script>
+
     </head>
 
     <body>
       <header>
+        <div class="logo-bit">
         <div class="logo"></div>
-        <div class="navigation">
-        <button id="toggle" class="closed"></button> 
-        <nav class="nav-collapse">
+        <h2>University of North Carolina Quizbowl</h2>
+        </div>
+        <nav>
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="scheduling.html">Semester Scheduling</a></li>
+              <li><a href="https://heellife.unc.edu/organization/academicteam">HeelLife</a></li>
+              <li><a href="study.html">How to Study for Quizbowl</a></li>
             </ul>
-          </nav>
-        </div>
-        </header>
+      </header>
 
-      <main >
-        <div class="search">
-          <h1>EXPLORE</h1>
-          <input type="text" placeholder="   Search...">
+      <main>
+        <div class="main-body">
+        <div class="break"></div>
+        <h1>Hello, we are UNC Quizbowl!</h1>
+        <div class="main-images">
+          <div class="large uva image"></div>
+          <div class="small cplus image"></div>
+          <div class="small acf image"></div>
         </div>
-        <div class="info-box snake">
-          <h3>$40</h3>
-          <br>
-          <h3>Snake Plant</h3>
-          <br>
-          <h6>dracaena trifasciata</h6>
+        <h2>But... What is Quizbowl?</h2>
+        <h4>Quizbowl is a trivia competition in which teams of four compete to answer questions on subjects like literature, history, and science — think Jeopardy, but academic, and with questions that are longer and more in-depth. 
+            <br>
+            <br>
+            Feel free to find  more in depth information on the game at PACE's <a href="http://www.pace-nsc.org/what-is-quizbowl-a-primer-and-faq-for-newcomers/">"What is Quizbowl?"</a> site or on the <a href="https://www.naqt.com/">NAQT</a> or <a href="https://acf-quizbowl.com/">ACF</a> homepages. An archive of sample collegiate questions is also available for browsing.
+            <br>
+            <br>
+            At Chapel Hill, Quizbowl is a portion of the club officially known as the Academic Team at UNC Chapel Hill, but usually the club is just referred to as UNC Quizbowl. Our club seeks to help all included improve at Quizbowl while also helping contribute to the greater Quizbowl community and incorporating as many social aspects to the club as we can.
+            <br>
+            <br>
+            For information about what our practices are like and where you can find us on campus, please see the Semester Scheduling tab or check out our HeelLife page!</h4>
+        </h4>
         </div>
-        <div class="info-box calathea">
-          <h3>$30</h3>
-          <br>
-          <h3>Calathea</h3>
-          <br>
-          <h6>calathea allouia</h6>
-        </div>
-        <div class="info-box banana">
-          <h3>$70</h3>
-          <br>
-          <h3>Banana</h3>
-          <br>
-          <h6>musa acuminata colla</h6>
-        </div>
-        <div class="info-box monstera">
-          <h3>$120</h3>
-          <br>
-          <h3>Monstera</h3>
-          <br>
-          <h6>monstera deliciosa</h6>
-        </div>
-        <div class="info-box dumbcane">
-          <h3>$70</h3>
-          <br>
-          <h3>Dumbcane</h3>
-          <br>
-          <h6>dieffenbachia schott</h6>
-        </div>
-        <div class="info-box paradise">
-          <h3>$100</h3>
-          <br>
-          <h3>Bird of Paradise</h3>
-          <br>
-          <h6>strelitzia reginae</h6>
+        <div class="important-links">
+          <h2 class="no-margin">Important Links</h2>
+          <ul>
+            <li><a href="https://docs.google.com/document/d/1Hom0i1l5LZGrykZphejYXL7vpNzyE-hy22YfGhAtMhM/edit?usp=sharing">UNC Quizbowl Constitution</a></li>
+            <li><a href="https://tinyurl.com/uncqbmisconduct">Anonymous Misconduct Form (down)</a></li>
+            <li><a href="https://groupme.com/join_group/96249621/mC8PcIeZ">2023-2024 GroupMe</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/1qqDP-MDuaO9s-zdln307MX2anZxCGTQmWKImVSVKTPE/edit#gid=0">2023-2024 Tournament Signup Sheet</a></li>
+          </ul>
         </div>
       </main>
 
       <footer>
-        <p>&copy HousePlant Inc.</p>
+        <p>&copy Academic Team at UNC Chapel Hill</p>
       </footer>
 
-      <script>
-        var navigation = responsiveNav(".nav-collapse", {
-          customToggle: "#toggle"
-        });
-      </script>
     </body>
 </html>

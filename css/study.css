@@ -49,17 +49,15 @@ nav li {
     text-align: center;
 }
 
-nav a {
+header a {
     color: white;
     text-decoration: none;
 }
 
-nav li:hover, nav li:focus {
+header li:hover, header li:focus {
     text-decoration: underline;
     color: white;
 }
-
-/* MAIN STYLING */
 
 .break {
     background-color: black;
@@ -67,6 +65,8 @@ nav li:hover, nav li:focus {
     width: 70vw;
     align-self: center;
 }
+
+/* MAIN STYLING */
 
 main {
     display: flex;
@@ -76,78 +76,19 @@ main {
     margin: 4rem;
 }
 
-.main-body {
+.study  {
     display: flex;
     flex-direction: column;
 }
-
-.main-images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 65vh;
-    gap: 15px;
-}
-
-.small {
-    height: 175px;
-    width: 28vw;
-}
-
-.large {
-    height: 365px;
-    width: 48vw;
-}
-
-.acf {
-    background-image: url(/imgs/unc_acf_fall.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.cplus {
-    background-image: url(/imgs/unc_c++.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.uva {
-    background-image: url(/imgs/unc_at_uva.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 
 h1 {
-    padding :0;
     text-align: center;
     font-size: 6vw;
 }
 
-h2 {
-    align-self: flex-start;
-}
-
-h4 {
-    margin-top: 0px;
-}
-
-main a:hover, main a:focus {
-    color: #2C7CB5;
-}
-
-main li {
-    list-style-type: none;
-}
-
 .no-margin {
     text-align: center;
-    margin: 0rem 0 0 0;
+    margin: 2rem 0 0 0;
 }
 
 .important-links {
@@ -238,7 +179,6 @@ footer p {
         grid-gap: 10px;
         margin: 4rem;
     }
-
     
     .break {
         width: 59.6vw;
@@ -256,25 +196,13 @@ footer p {
     h4 {
         margin: 0 4rem 0 4rem;
     }
-    
-    .main-images {
-        align-self: center;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        height: 40vh;
-        gap: 15px;
-    }
-    
-    .image {
-        height: 30vh;
-        width: 19vw;
-    }
- 
-    .important-links {
-        height: 80vh;
+
+    .bullet-points {
+        margin: 0 6rem;
     }
 
+    .important-links {
+        height: 80vh;
+        width: 116.5vw;
+    }
 }
